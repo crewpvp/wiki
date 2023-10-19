@@ -166,8 +166,8 @@ defaultContentLanguage = "ru"
 # consult this documentation for explaination
 [params]
   editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
-  description = "Documentation for Hugo Relearn Theme"
-  author = "Sören Weber"
+  description = "Wiki of crewpvp.xyz minecraft server"
+  author = "Lotzy, w0w0"
   showVisitedLinks = true
   collapsibleMenu = true
   disableBreadcrumb = false
