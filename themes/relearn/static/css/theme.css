@@ -116,7 +116,7 @@ html {
 body {
     display: flex;
     flex-direction: row-reverse; /* IE11 to allow body to have initial focus for PS and better SEO and a11y */
-    font-size: 1.015625rem;
+    font-size: 1.4rem;
     font-weight: 300;
     height: 100%;
     justify-content: flex-end;
@@ -185,7 +185,7 @@ dd {
 }
 
 .searchbox {
-    border-radius: 4px;
+    border-radius: 15px;
     border-style: solid;
     border-width: 1px;
     position: relative;
@@ -254,7 +254,7 @@ dd {
 }
 
 #R-sidebar .padding {
-    padding: 0 1rem;
+    padding: 0 1.8rem;
 }
 
 .footerFooter {
@@ -306,7 +306,7 @@ dd {
 }
 
 #R-sidebar .nav-title {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 200;
     letter-spacing: -.02175em;
     line-height: 110% !important;
@@ -377,6 +377,7 @@ dd {
 }
 
 #R-body-inner {
+    --ps-rail-hover-color: rgba( 176, 176, 176, .25 );
     display: flex;
     flex: auto;
     flex-direction: column;
@@ -384,6 +385,8 @@ dd {
     padding: 0 3.25rem 4rem 3.25rem;
     position: relative; /* PS */
 }
+
+
 @media screen and (max-width: 60rem) {
     #R-body-inner {
         padding: 0 2rem 1rem 2rem;
@@ -416,6 +419,17 @@ article a:focus {
     outline: none;
 }
 
+#R-body-inner::-webkit-scrollbar {
+    opacity: 0.25;
+    background-color: transparent;
+    width: 6px;
+}
+
+
+#R-body-inner::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+}
+
 #R-body h1 + hr {
     margin-bottom: 2rem;
     margin-top: -1rem;
@@ -424,20 +438,20 @@ article a:focus {
 #R-body .flex-block-wrapper {
     margin-left: auto;
     margin-right: auto;
-    max-width: calc( 81.25rem - 18.75rem - 2 * 3.25rem );
+    max-width: calc( 91.25rem - 18.75rem - 2 * 3.25rem );
     width: 100%;
 }
 body:not(.print) #R-body .narrow .flex-block-wrapper {
-    max-width: calc( 81.25rem - 18.75rem - 2 * 9.75rem );
+    max-width: calc( 91.25rem - 18.75rem - 2 * 9.75rem );
 }
 
 /* we limit width if we have large screens */
-@media screen and ( min-width: 81.25rem ){ /* #R-sidebar/width + ./max-width */
+@media screen and ( min-width: 91.25rem ){ /* #R-sidebar/width + ./max-width */
     #R-body .flex-block-wrapper {
-        width: calc( 81.25rem - 18.75rem - 2 * 3.25rem );
+        width: calc( 91.25rem - 18.75rem - 2 * 3.25rem );
     }
     body:not(.print) #R-body .narrow .flex-block-wrapper {
-        width: calc( 81.25rem - 18.75rem - 2 * 9.75rem );
+        width: calc( 91.25rem - 18.75rem - 2 * 9.75rem );
     }
 }
 
@@ -525,7 +539,7 @@ h6 {
 
 h2, h3, .article-subheading, h4, h5, h6 {
     letter-spacing: -.0625rem;
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0 0rem 0;
     /* big titles cause a horizontal scrollbar - fixing this by wrapping text */
     overflow-wrap: break-word;
     overflow-x: hidden;
@@ -542,9 +556,7 @@ blockquote {
 }
 
 blockquote p {
-    font-size: 1.06640625rem;
-    font-style: italic;
-    opacity: .75;
+    font-size: 1.3rem;
     text-align: justify;
 }
 
@@ -727,7 +739,7 @@ pre:not(.mermaid) code {
     color: inherit;
     -webkit-print-color-adjust: economy;
     color-adjust: economy;
-    font-size: .9375rem;
+    font-size: 1.1375rem;
     margin: 0;
     padding: 0;
 }
@@ -841,7 +853,7 @@ tbody > tr:nth-child(even) > td {
     color: rgba( 255, 255, 255, 1 );
     content: attr(aria-label);
     display: none;
-    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-size: .6875rem;
     font-weight: normal;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -1230,69 +1242,70 @@ option {
 }
 
 .expand {
-    margin-bottom: 1rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
     margin-top: 1rem;
-    position: relative;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    padding-left: 0;
 }
 
-.expand > input {
-    -webkit-appearance: none;
-    appearance: none;
-    cursor: pointer;
+.expand:hover {
+    background-color: rgba( 160, 160, 160, .2 );
 }
 
-.expand > label {
-    cursor: pointer;
-    display: inline;
-    font-weight: 300;
-    inset-inline-start: 0;
-    line-height: 1.1;
-    margin-top: .2rem;
+.expand > input[type="checkbox"] {
+  display: none;
+}
+
+.expand > .expand-content > p {
+    margin: 0;
+}
+
+.expand .expand-content {
+  overflow: hidden;
+  max-height: 0px;
+  transition: all 0.26s ease;
+  transform-origin: top;
+  line-height: 1.7rem;
+  transform: scaleY(0);
+}
+
+
+.expand > input[type="checkbox"] ~ .expand-content {
+  border-radius: 0 0 5px 5px;
+  padding-left: 3rem;
+  border-top: 0;
+}
+
+.expand > input[type="checkbox"]:checked ~ .expand-content {
+  transition: all 0.2s ease-in;
+  transform: scaleY(1);
+  max-height: 1500px;
+  padding-bottom: 0.5rem;
+}
+
+.expand > label > .expand-title {
+  cursor: pointer;
+  font-weight: 300;
+  padding-top: 0.3rem;
+  padding-left: 3rem;
+}
+
+.expand > input[type="checkbox"] ~ label > .expand-button  {
     position: absolute;
-}
-
-.expand > input:active + label,
-.expand > input:focus + label,
-.expand > label:hover {
-    text-decoration: underline;
-}
-
-.expand > label > .fas {
-    font-size: .8rem;
-    width: .6rem;
-}
-
-.expand > .expand-content {
-    margin-inline-start: 1rem;
-    margin-top: .5rem;
-}
-/* closed expander */
-.expand > input + label + div {
-    display: none;
-}
-
-.expand > input + label > .fa-chevron-down {
-    display: none;
-}
-.expand > input + label > .fa-chevron-right {
+    padding-left: 1rem;
+    padding-top: 0.65rem;
     display: inline-block;
+    transform-origin: bottom right;
+    transition: all 0.2s ease-in-out;    
 }
 
-/* open expander */
-.expand > input:checked + label + div {
-	display: block;
-}
-
-.expand > input:checked + label > .fa-chevron-down {
-    display: inline-block;
-}
-.expand > input:checked + label > .fa-chevron-right {
-    display: none;
-}
-
-/* adjust expander for RTL reading direction */
-html[dir="rtl"] .expand > .expand-label > i.fa-chevron-right {
-    transform: scaleX(-1);
+.expand > input[type="checkbox"]:checked ~ label > .expand-button  {
+    padding-left: 0rem;
+    padding-top: 0.35rem;
+    transform: rotate(90deg);
 }
 
 #R-body footer.footline{
@@ -1476,9 +1489,9 @@ html[dir="rtl"] .expand > .expand-label > i.fa-chevron-right {
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.5;
     margin-bottom: 0;
     touch-action: manipulation;
     -ms-user-select: none;
@@ -1630,7 +1643,7 @@ html[dir="rtl"] .menu-control span {
 
 .menu-control button {
     background-color: transparent;
-	cursor: pointer;
+    cursor: pointer;
     display: block;
     text-align: start;
 }
@@ -1682,11 +1695,11 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .scrollbar-measure {
     /* https://davidwalsh.name/detect-scrollbar-width */
-	height: 100px;
-	overflow: scroll;
-	position: absolute;
-	width: 100px;
-	top: -9999px;
+    height: 100px;
+    overflow: scroll;
+    position: absolute;
+    width: 100px;
+    top: -9999px;
 }
 
 .a11y-only {
@@ -1852,7 +1865,7 @@ article ul > li > input[type="checkbox"] {
     display: inline-grid;
     font: inherit;
     height: 1.15em;
-    margin: 0;
+    margin: 0.5rem;
     place-content: center;
     transform: translateY(-0.075em);
     width: 1.15em;
@@ -1969,7 +1982,7 @@ article ul > li > input[type="checkbox"]:checked::before {
     display: inline-block;
     inset-inline-start: 0;
     margin-bottom: 0; /* nucleus */
-    padding-inline-start: .125rem;
+    padding-inline-start: .6rem;
     position: absolute;
     width: 1rem;
     z-index: 2;
@@ -2006,6 +2019,11 @@ article ul > li > input[type="checkbox"]:checked::before {
 #R-sidebar ul ul {
     display: none;
 }
+#R-sidebar ul.enlarge > li.parent,
+#R-sidebar ul.enlarge > li.active {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 
 #R-sidebar ul > li.parent > ul,
 #R-sidebar ul > li.active > ul,
@@ -2029,7 +2047,7 @@ article ul > li > input[type="checkbox"]:checked::before {
 /* open menu  */
 
 #R-sidebar ul.collapsible-menu > li > input:checked + label ~ ul {
-	display: block;
+    display: block;
 }
 
 #R-sidebar ul.collapsible-menu > li > input:checked + label > .fa-chevron-down {
@@ -2175,8 +2193,10 @@ html[dir="rtl"] #R-sidebar ul.collapsible-menu > li > label > i.fa-chevron-right
 #R-sidebar ul.collapsible-menu li.active > a{
     border-style: solid;
     border-width: 1px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     padding-bottom: calc( .25rem - var(--bpx1)*1px);
-    padding-left: calc( 1rem - var(--bpx1)*1px);
+    padding-left: calc( 1.8rem - var(--bpx1)*1px);
     padding-right: calc( 1rem - var(--bpx1)*1px);
     padding-top: calc( .25rem - var(--bpx1)*1px);
     width: calc(100% + var(--bpx1)*1px);
@@ -2188,4 +2208,5 @@ html[dir="rtl"] #R-sidebar ul.collapsible-menu > li > label > i.fa-chevron-right
 
 #R-topics {
     padding-top: 1rem;
+    padding-left: 1rem;
 }
