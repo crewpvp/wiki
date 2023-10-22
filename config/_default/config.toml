@@ -93,30 +93,33 @@ defaultContentLanguage = "ru"
       landingPageName = "<i class='fas fa-home'></i> Home"
 
     [[languages.ru.menu.shortcuts]]
-      name = "<i class='fab fa-discord'></i> Discord"
-      url = "https://discord.gg/W34gTEefRe"
+      name = "Ресурсы"
       weight = 1
+      [[languages.ru.menu.shortcuts.params.items]]
+        name = "<i class='fab fa-discord'></i> Discord"
+        url = "https://discord.gg/W34gTEefRe"
+        weight = 1
 
-    [[languages.ru.menu.shortcuts]]
-      name = "<i class='fas fa-map'></i> Dynmap"
-      url = "https://crewpvp.xyz/dynmap"
-      weight = 2
+      [[languages.ru.menu.shortcuts.params.items]]
+        name = "<i class='fab fa-vk'></i> Вконтакте"
+        url = "https://vk.com/crewpvp"
+        weight = 2
 
-    [[languages.ru.menu.shortcuts]]
-      name = "<i class='fab fa-vk'></i> Вконтакте"
-      url = "https://vk.com/crewpvp"
-      weight = 3
+      [[languages.ru.menu.shortcuts.params.items]]
+        name = "<i class='fab fa-youtube'></i> YouTube"
+        pageRef = "https://www.youtube.com/@Crewpvp1337"
+        weight = 3
+        
+      [[languages.ru.menu.shortcuts.params.items]]
+        name = "<i class='fas fa-map'></i> Dynmap"
+        url = "https://crewpvp.xyz/dynmap"
+        weight = 4
 
-    [[languages.ru.menu.shortcuts]]
-      name = "<i class='fab fa-youtube'></i> YouTube"
-      pageRef = "https://www.youtube.com/@Crewpvp1337"
-      weight = 4
-
-    [[languages.ru.menu.shortcuts]]
-      name = "<i class='fab fa-fw fa-github'></i> GitHub organization"
-      identifier = "ds"
-      url = "https://github.com/crewpvp"
-      weight = 5
+      [[languages.ru.menu.shortcuts.params.items]]
+        name = "<i class='fab fa-fw fa-github'></i> GitHub organization"
+        identifier = "ds"
+        url = "https://github.com/crewpvp"
+        weight = 5
 
 # mounts are only needed in this showcase to access the publicly available screenshots;
 # remove this section if you don't need further mounts

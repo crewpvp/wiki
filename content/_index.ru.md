@@ -1,9 +1,25 @@
 +++
 archetype = "home"
-title = "Главная"
 +++
 
-## Пиздец
 
-The Relearn theme is licensed under the [MIT License](https://github.com/McShelby/hugo-theme-relearn/blob/main/LICENSE).
+![121](./forest.jpg)
+## Welcome
+Добро пожаловать
 
+
+{{%expand title="**В чём суть Vanilla Plus на crewpvp.xyz?**"%}}
+-- Ванильный Minecraft с добавлением некоторых механик\
+-- Имеется довольно активное и дружелюбное комьюнити\
+-- Отсутствуют бесполезные плагины и донатные преимущества\
+-- Гриф запрещен, пострадавшие постройки будут восстановлены\
+-- Неадекватные игроки отсеиваются на этапе создания анкеты
+{{% /expand %}}
+{{%expand title="**Бесплатное получение «проходки»**"%}}
+Требуется всего лишь заполнить заявку и ожидать одобрения\
+Подробнее: ***ЁБАНАЯСЫЛКА***
+{{% /expand %}}
+{{%expand title="**Присоединиться к нам**"%}}
+Discord: [crewpvp.xyz/discord](https://discord.com/invite/uKreqjn)\
+Minecraft: crewpvp.xyz
+{{% /expand %}}
