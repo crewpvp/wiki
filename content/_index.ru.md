@@ -5,7 +5,7 @@ archetype = "home"
 
 ![121](./forest.jpg)
 ## Welcome
-Добро пожаловать
+<gray>Добро пожаловать</gray>
 
 
 {{%expand title="**В чём суть Vanilla Plus на crewpvp.xyz?**"%}}
