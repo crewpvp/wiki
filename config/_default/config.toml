@@ -107,7 +107,7 @@ defaultContentLanguage = "ru"
 
       [[languages.ru.menu.shortcuts.params.items]]
         name = "<i class='fab fa-youtube'></i> YouTube"
-        pageRef = "https://www.youtube.com/@Crewpvp1337"
+        url = "https://www.youtube.com/@Crewpvp1337"
         weight = 3
         
       [[languages.ru.menu.shortcuts.params.items]]

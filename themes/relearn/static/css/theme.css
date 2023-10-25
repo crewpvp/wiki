@@ -9,6 +9,8 @@ need a way to calculate them ourself */
     --bpx: 1;
     --bpx1: 1;
 }
+
+
 @media (min-resolution: 105dpi) {
     :root {
         --dpr: 1.1;
