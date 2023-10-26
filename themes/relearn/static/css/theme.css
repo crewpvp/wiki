@@ -1276,7 +1276,9 @@ option {
   transform: scaleY(0);
 }
 
-
+.expand > label {
+  margin-bottom: 0rem;
+}
 .expand > input[type="checkbox"] ~ .expand-content {
   border-radius: 0 0 5px 5px;
   padding-left: 3rem;
