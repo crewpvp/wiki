@@ -14,13 +14,13 @@ a,
 .anchor,
 .topbar-button button,
 #R-searchresults .autocomplete-suggestion {
-    color: var(--INTERNAL-MAIN-LINK-color);
+    color: var(--INTERNAL-MENU-SECTIONS-LINK-color);
 }
 
 a:hover,
 .anchor:hover,
 .topbar-button button:hover {
-    color: var(--INTERNAL-MAIN-LINK-HOVER-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
 }
 
 #R-sidebar {
@@ -29,7 +29,7 @@ a:hover,
 
 #R-header-wrapper {
     background-color: var(--INTERNAL-MENU-HEADER-BG-color);
-    color: var(--INTERNAL-MENU-SEARCH-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
 }
 
 .searchbox {
@@ -39,12 +39,12 @@ a:hover,
 
 #R-sidebar .searchbox > :first-child,
 #R-sidebar .searchbox > :last-child {
-    color: var(--INTERNAL-MENU-SEARCH-color);
+    color: var(--INTERNAL-MENU-SECTIONS-LINK-color);
 }
 
 .searchbox input::-webkit-input-placeholder,
 .searchbox input::placeholder {
-    color: var(--INTERNAL-MENU-SEARCH-color);
+    color: var(--INTERNAL-MENU-SECTIONS-LINK-color);
 }
 
 #R-sidebar .collapsible-menu label,
@@ -57,7 +57,7 @@ a:hover,
 #R-sidebar .collapsible-menu li:not(.active) > label:hover,
 #R-sidebar .menu-control:hover,
 #R-sidebar a:hover {
-    color: var(--INTERNAL-MENU-SECTIONS-LINK-HOVER-color);
+    color: var(--VARIABLE-BOX-TEXT-color);
 }
 
 #R-sidebar .menu-control button,
@@ -72,7 +72,7 @@ a:hover,
 
 #R-sidebar li.active > label,
 #R-sidebar li.active > a {
-    color: var(--INTERNAL-MENU-SECTION-ACTIVE-CATEGORY-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
 }
 
 #R-sidebar li.active > a {
@@ -80,7 +80,7 @@ a:hover,
 }
 
 #R-sidebar ul li > a .read-icon {
-    color: var(--INTERNAL-MENU-VISITED-color);
+    color: var(--VARIABLE-BOX-TEXT-color);
 }
 
 #R-sidebar .nav-title {
@@ -483,6 +483,8 @@ article ul > li > input[type="checkbox"] {
     border-top-color: var(--INTERNAL-MENU-BORDER-color);
     border-inline-start-color: var(--INTERNAL-MENU-BORDER-color);
     border-inline-end-color: var(--INTERNAL-MENU-SECTION-ACTIVE-CATEGORY-BORDER-color);
+    color: var(--VARIABLE-BOX-TEXT-color);
+    font-weight: bold;
 }
 
 #R-body-inner::-webkit-scrollbar-thumb {
