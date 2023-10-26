@@ -100,32 +100,32 @@ mark {
 }
 
 h1 {
-    color: var(--INTERNAL-MAIN-TITLES-H1-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
     font-family: var(--INTERNAL-MAIN-TITLES-H1-font);
 }
 
 h2 {
-    color: var(--INTERNAL-MAIN-TITLES-H2-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
     font-family: var(--INTERNAL-MAIN-TITLES-H2-font);
 }
 
 h3, .article-subheading {
-    color: var(--INTERNAL-MAIN-TITLES-H3-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
     font-family: var(--INTERNAL-MAIN-TITLES-H3-font);
 }
 
 h4 {
-    color: var(--INTERNAL-MAIN-TITLES-H4-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
     font-family: var(--INTERNAL-MAIN-TITLES-H4-font);
 }
 
 h5 {
-    color: var(--INTERNAL-MAIN-TITLES-H5-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
     font-family: var(--INTERNAL-MAIN-TITLES-H5-font);
 }
 
 h6 {
-    color: var(--INTERNAL-MAIN-TITLES-H6-color);
+    color: var(--INTERNAL-MAIN-TEXT-color);
     font-family: var(--INTERNAL-MAIN-TITLES-H6-font);
 }
 

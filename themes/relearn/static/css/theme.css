@@ -309,7 +309,7 @@ dd {
 
 #R-sidebar .nav-title {
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: -.02175em;
     line-height: 110% !important;
     margin: 1.2rem 0 .8rem 0;
@@ -1465,7 +1465,7 @@ option {
 
 #TableOfContents,
 .TableOfContents {
-    font-size: .8125rem;
+    font-size: 1.1rem;
 }
 #TableOfContents ul,
 .TableOfContents ul {
@@ -2204,6 +2204,7 @@ html[dir="rtl"] #R-sidebar ul.collapsible-menu > li > label > i.fa-chevron-right
     padding-right: calc( 1rem - var(--bpx1)*1px);
     padding-top: calc( .25rem - var(--bpx1)*1px);
     width: calc(100% + var(--bpx1)*1px);
+
 }
 
 #R-menu-footer {
