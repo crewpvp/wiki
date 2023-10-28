@@ -1,7 +1,7 @@
 # this is a required setting for this theme to appear on https://themes.gohugo.io/
 # change this to a value appropriate for you; if your site is served from a subdirectory
 # set it like "https://example.com/mysite/"
-baseURL = "https://example.com/"
+baseURL = "https://wiki.crewpvp.xyz/"
 
 # canonicalization will only be used for the sitemap.xml and index.xml files;
 # if set to false, a site served from a subdirectory will generate wrong links
@@ -22,7 +22,7 @@ uglyURLs = false     # true -> basic/index.html -> basic.html
 themesdir = "./themes/"
 # yeah, well, obviously a mandatory setting for your site, if you want to
 # use this theme ;-)
-theme = "relearn"
+theme = "docs-hugo-theme"
 
 # the main language of this site; also an automatic pirrrate translation is
 # available in this showcase
@@ -176,6 +176,8 @@ defaultContentLanguage = "ru"
   disableBreadcrumb = false
   disableRootBreadcrumb = true
   disableInlineCopyToClipBoard = true
+  disableEditButton = true
+  disablePrintButton = true
   disableNextPrev = false
   disableLandingPageButton = true
   breadcrumbSeparator = ">"
