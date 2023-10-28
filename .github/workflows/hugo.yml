@@ -56,7 +56,11 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
+          mkdir ./themes \
+          && cd ./themes \
+          && git clone https://github.com/crewpvp/docs-hugo-theme.git \
+          && cd ../ \
+          && hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
