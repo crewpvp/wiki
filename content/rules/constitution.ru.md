@@ -8,28 +8,28 @@ weight = 2
 <gray>Конституция распространяется на всю территорию государства «Утопия»</gray>
 
 {{%expand title="**Примечание к пунктам конституции**"%}}
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 **Незнание не освобождает от ответственности.**
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 **Власть государства «Утопия»**
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 -- Президентом Утопии является игрок «w0w0»\
 -- Заместителем президента является игрок «Lotzy»\
 -- Мэром столицы является игрок «ZV smert hohlam»
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 **Мэрия Восторга** находится в нулевом районе (нулевые координаты), здание столичного суда, вход с противоположной стороны
-<half-empty-line></half-empty-line>	
+<fifty-empty-line></fifty-empty-line>	
 **Игнорирование** или **уклонение** от обвинений влечет к полной отмене амнистии, в особо тяжких случаях к усилению мер воздействия. Например: Изгнание с территории государства.
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 **Игрок** режима Vanilla Plus -- **Гражданин** государства «Утопия».
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 На территории государства «Утопия» не могут быть зарегистрированы прочие государства.
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 **«Утопия» является авторитарным государством.**\
 Процессы смены власти и политического режима запустятся, когда государство сформируется в необходимом для этого виде. Об этом будет объявлено действующим президентом.
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 Для каждой отдельной ситуации будут приняты меры воздействия по совокупности обстоятельств.
-<half-empty-line></half-empty-line>
+<fifty-empty-line></fifty-empty-line>
 Свод пунктов конституции будет дополняться в связи с обстановкой в государстве, обо всех изменениях будет написано в новостях.
 {{% /expand %}}
 

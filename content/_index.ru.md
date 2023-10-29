@@ -1,4 +1,5 @@
 +++
+title = "Welcome"
 archetype = "home"
 +++
 
@@ -17,9 +18,9 @@ archetype = "home"
 {{% /expand %}}
 {{%expand title="**Бесплатное получение «проходки»**"%}}
 Требуется всего лишь заполнить заявку и ожидать одобрения\
-Подробнее: ***ЁБАНАЯСЫЛКА***
+Подробнее: [**<maincolor>оформление заявки</maincolor>**](../about-us/start-playing) [<maincolor><i class="fa-solid fa-pen fa-xs"></i></i></maincolor>](../about-us/start-playing)
 {{% /expand %}}
 {{%expand title="**Присоединиться к нам**"%}}
-Discord: [crewpvp.xyz/discord](https://discord.com/invite/uKreqjn)\
-Minecraft: crewpvp.xyz
+Discord: [<maincolor>**crewpvp.xyz/discord**</maincolor>](https://discord.com/invite/uKreqjn) [<maincolor><i class="fa-brands fa-discord fa-xs"></i></maincolor>](https://discord.com/invite/uKreqjn)\
+Minecraft: {{% copy %}} **crewpvp.xyz** <i class="fa-solid fa-copy fa-xs"></i> {{% /copy %}}
 {{% /expand %}}
