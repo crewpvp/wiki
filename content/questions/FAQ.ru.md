@@ -9,6 +9,10 @@ weight = 6
 
 ### Вопросы про майнкрафт сервер
 
+{{%expand title="**Как начать играть?**"%}}
+Полная инструкция: [**<maincolor>оформление заявки</maincolor>**](../about-us/start-playing) [<maincolor><i class="fa-solid fa-pen fa-xs"></i></i></maincolor>](../about-us/start-playing)
+{{% /expand %}}
+
 {{%expand title="**Как узнать информацию о сервере?**"%}}
 Информацию можно узнать прописав в игре команду **/help** и нажав на категорию.\
 (категории: особенности режима, чат, сообщество и другие)
@@ -86,10 +90,6 @@ weight = 6
 {{% /expand %}}
 
 ### Вопросы про Vanilla Plus
-
-{{%expand title="**Как начать играть?**"%}}
-Полная инструкция: [**<maincolor>оформление заявки</maincolor>**](../about-us/start-playing) [<maincolor><i class="fa-solid fa-pen fa-xs"></i></i></maincolor>](../about-us/start-playing)
-{{% /expand %}}
 
 {{%expand title="**Как увидеть ник игрока стоящего рядом?**"%}}
 Наведясь на него и кликнув **Правой Кнопкой Мыши**. 
