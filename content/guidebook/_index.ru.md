@@ -9,7 +9,7 @@ weight = 1
 
 ### Начать играть?
 
-[Оформление заявки](../about-us/start-playing)
+[<red>Оформление заявки</red>](../about-us/start-playing)
 
 [Особенности](../about-us/specificity)
 
