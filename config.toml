@@ -97,7 +97,7 @@ defaultContentLanguage = "ru"
       weight = 1
       [[languages.ru.menu.shortcuts.params.items]]
         name = "<i class='fab fa-discord'></i> Discord"
-        url = "https://discord.gg/W34gTEefRe"
+        url = "https://discord.com/invite/uKreqjn"
         weight = 1
 
       [[languages.ru.menu.shortcuts.params.items]]
