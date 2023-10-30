@@ -10,7 +10,7 @@ weight = 6
 ### Вопросы про майнкрафт сервер
 
 {{%expand title="**Как начать играть?**"%}}
-Полная инструкция: [**<maincolor>оформление заявки <i class="fa-solid fa-pen fa-xs"></i></maincolor>**](../about-us/start-playing)
+Полная инструкция: [**оформление заявки <i class="fa-solid fa-pen fa-xs"></i>**](../about-us/start-playing)
 {{% /expand %}}
 
 {{%expand title="**Как узнать информацию о сервере?**"%}}
@@ -27,8 +27,8 @@ weight = 6
 {{% /expand %}}
 
 {{%expand title="**Как получить ресурс-пак сервера?**"%}}
--- Автоматически: при входе на сервер разрешить установку РП от сервера <i class="fa-solid fa-download fa-2xs"></i>\
--- Вручную: установить РП вручную скачав его [<maincolor>**отсюда**</maincolor>](../faq) [<maincolor><i class="fa-solid fa-download"></i></maincolor>](../faq) 
+-- Автоматически: при входе на сервер разрешить установку РП от сервера\
+-- Вручную: установить РП вручную скачав его [**отсюда** <i class="fa-solid fa-download"></i>](../faq)
 {{% /expand %}}
 
 {{%expand title="**Зачем нужна заявочная система?**"%}}
