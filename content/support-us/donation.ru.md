@@ -16,6 +16,6 @@ weight = 1
 На данный момент этот сайт является основным способом рекламирования сервера, лучше всего пожертвовать деньги именно сюда.
 {{% /expand %}}
 
-{{%expand title="<red>[monitoringminecraft.ru](https://monitoringminecraft.ru/promo-server-823545) (дополнительный пиар сервера)</red>"%}}
+{{%expand title="[monitoringminecraft.ru](https://monitoringminecraft.ru/promo-server-823545) (дополнительный пиар сервера)"%}}
 Этот сайт - второй по востребованности продвижения, необходим лишь если на первом всё замечательно или наоборот очень плохо.
 {{% /expand %}}
