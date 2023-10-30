@@ -10,17 +10,24 @@ archetype = "home"
 
 
 {{%expand title="**В чём суть Vanilla Plus на crewpvp.xyz?**"%}}
--- Ванильный Minecraft с добавлением некоторых механик\
+-- Ванильный Minecraft с добавлением [**некоторых механик** <i class="fa-solid fa-gear scale"></i>](../new-mechanics)\
+-- Имеется довольно активное и дружелюбное комьюнити\
+-- Отсутствуют бесполезные плагины и донатные преимущества\
+-- Гриф запрещен, пострадавшие постройки будут восстановлены\
+-- Неадекватные игроки отсеиваются на этапе создания анкеты
+{{%expand title="**В чём суть Vanilla Plus на crewpvp.xyz?**"%}}
+-- Ванильный Minecraft с добавлением [**некоторых механик** <i class="fa-solid fa-gear scale"></i>](../new-mechanics)\
 -- Имеется довольно активное и дружелюбное комьюнити\
 -- Отсутствуют бесполезные плагины и донатные преимущества\
 -- Гриф запрещен, пострадавшие постройки будут восстановлены\
 -- Неадекватные игроки отсеиваются на этапе создания анкеты
 {{% /expand %}}
+{{% /expand %}}
 {{%expand title="**Бесплатное получение «проходки»**"%}}
 Требуется всего лишь заполнить заявку и ожидать одобрения\
-Подробнее: [**<maincolor>оформление заявки</maincolor>**](../about-us/start-playing) [<maincolor><i class="fa-solid fa-pen fa-xs"></i></i></maincolor>](../about-us/start-playing)
+Подробнее: [**оформление заявки <i class="fa-solid fa-pen fa-xs scale"></i>**](../about-us/start-playing)
 {{% /expand %}}
 {{%expand title="**Присоединиться к нам**"%}}
-Discord: [<maincolor>**crewpvp.xyz/discord**</maincolor>](https://discord.com/invite/uKreqjn) [<maincolor><i class="fa-brands fa-discord fa-xs"></i></maincolor>](https://discord.com/invite/uKreqjn)\
-Minecraft: {{% copy %}} **crewpvp.xyz** <i class="fa-solid fa-copy fa-xs"></i> {{% /copy %}}
+Discord: [**crewpvp.xyz/discord** <i class="fa-brands fa-discord fa-xs scale"></i>](https://discord.com/invite/uKreqjn)\
+Minecraft: {{% copy %}} **crewpvp.xyz** <i class="fa-solid fa-copy fa-2xs scale"></i> {{% /copy %}}
 {{% /expand %}}
