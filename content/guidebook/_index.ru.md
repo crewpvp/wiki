@@ -9,22 +9,22 @@ weight = 1
 
 ### Начать играть?
 
-[<red>Оформление заявки</red>](../about-us/start-playing)
+{{% big-link url="../about-us/start-playing" icon="fa-solid fa-link" %}}Оформление заявки{{% /big-link %}}
 
-[Особенности](../about-us/specificity)
+{{% big-link url="../about-us/specificity" icon="fa-solid fa-link" %}}Особенности{{% /big-link %}}
 
-[Основные правила](../rules/mind)
+{{% big-link url="../rules/mind" icon="fa-solid fa-link" %}}Основные правила{{% /big-link %}}
 
 ### Задержаться на подольше? 
 
-[Конституция](../rules/constitution)
+{{% big-link url="../rules/constitution" icon="fa-solid fa-link" %}}Конституция{{% /big-link %}}
 
-[Нововведения](../new-mechanics)
+{{% big-link url="../new-mechanics" icon="fa-solid fa-link" %}}Нововведения{{% /big-link %}}
 
 ### Узнать ответ на вопрос?
 
-[FAQ](../questions/faq)
+{{% big-link url="../questions/faq" icon="fa-solid fa-link" %}}FAQ{{% /big-link %}}
 
 ### Поддержать нас?
 
-[Пожертвования](../support-us/donation)
+{{% big-link url="../support-us/donation" icon="fa-solid fa-link" %}}Пожертвования{{% /big-link %}}
