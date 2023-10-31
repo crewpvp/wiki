@@ -10,7 +10,7 @@ weight = 3
 <thundred-empty-line><thundred-empty-line>
 
 ##### Чтобы начать выживать с нами Вам необходимо выполнить следующие пункты
--- Прочесть статьи из [**путеводителя** <i class="fa-solid fa-magnifying-glass fa-xs"></i>](../../guidebook)\
+-- Прочитать статьи представленные в информбюро\
 -- Зайти на наш **Minecraft** сервер: {{% copy %}} **crewpvp.xyz** <i class="fa-solid fa-copy fa-xs"></i> {{% /copy %}}\
 -- Стать участником нашего **Discord** сервера: [**crewpvp.xyz/discord** <i class="fa-brands fa-discord fa-xs"></i>](https://discord.com/invite/uKreqjn)\
 -- Отправить запрос на верификацию вашего **Discord** аккаунта\
