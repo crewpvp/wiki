@@ -6,8 +6,10 @@ archetype = "default"
 ## Welcome
 <gray>Добро пожаловать</gray>
 
+<hundred-empty-line></hundred-empty-line>
+
 {{%expand title="**В чём суть Vanilla Plus на crewpvp.xyz?**"%}}
--- Ванильный Minecraft с добавлением [**некоторых механик** <i class="fa-solid fa-gear"></i>](../new-mechanics)\
+-- Ванильный Minecraft с добавлением [**новых механик** <i class="fa-solid fa-gear"></i>](../new-mechanics)\
 -- Имеется довольно активное и дружелюбное комьюнити\
 -- Отсутствуют бесполезные плагины и донатные преимущества\
 -- Гриф запрещен, пострадавшие постройки будут восстановлены\
