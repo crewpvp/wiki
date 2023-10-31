@@ -8,8 +8,8 @@ weight = 1
 <gray>Передавать, разрушать, телепортировать</gray>
 
 ### Система Транспортировки
-![pic1 - Система готова к работе](../system/transport.png)
-![pic2 - Система активирована](../system/transport-activated.png)
+![pic1 - Система готова к работе](../system/transport.jpg)
+![pic2 - Система активирована](../system/transport-activated.jpg)
 
 {{% notice style="info" title="Раздатчик-транспортер" %}}
 Позволяет моментально передавать предметы из раздатчика в хранилище.\
@@ -69,8 +69,8 @@ weight = 1
 {{% /notice %}}
 
 ### Система «Телепортер»
-![pic1 - Система готова к работе](../system/teleport.png)
-![pic2 - Система активирована](../system/teleport-activated.png)
+![pic1 - Система готова к работе](../system/teleport.jpg)
+![pic2 - Система активирована](../system/teleport-activated.jpg)
 
 {{% notice style="info" title="Раздатчик отправляющий телепорт" %}}
 Для срабатывания требует топлива: 8 око эндера на одно использование.
