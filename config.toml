@@ -116,7 +116,7 @@ defaultContentLanguage = "ru"
         weight = 4
 
       [[languages.ru.menu.shortcuts.params.items]]
-        name = "<i class='fab fa-fw fa-github'></i> GitHub organization"
+        name = "<i class='fab fa-fw fa-github'></i> GitHub"
         identifier = "ds"
         url = "https://github.com/crewpvp"
         weight = 5
