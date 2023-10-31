@@ -6,6 +6,8 @@ weight = 3
 
 ## Оформление заявки
 <gray>Бесплатно.</gray>
+\
+<thundred-empty-line><thundred-empty-line>
 
 ##### Чтобы начать выживать с нами Вам необходимо выполнить следующие пункты
 -- Прочесть статьи из [**путеводителя** <i class="fa-solid fa-magnifying-glass fa-xs"></i>](../../guidebook)\
