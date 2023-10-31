@@ -3,8 +3,6 @@ title = "Welcome"
 archetype = "default"
 +++
 
-
-![121](./forest.jpg)
 ## Welcome
 <gray>Добро пожаловать</gray>
 
