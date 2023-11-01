@@ -1,6 +1,7 @@
 +++
 title = "Welcome"
-archetype = "default"
+archetype = "home"
+image = "./forest.jpg"
 +++
 
 ## Welcome
