@@ -2,8 +2,10 @@
 title = "Правила"
 archetype = "home"
 weight = 4
-collapsibleMenu = false
 alwaysopen = true
+collapsibleMenu = false
+[_build]
+render = "never"
 +++
 
 # (БУДУЩИЙ ЗАГОЛОВОК В МЕНЮ)

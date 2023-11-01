@@ -2,8 +2,10 @@
 title = "Поддержать нас"
 archetype = "home"
 weight = 5
-collapsibleMenu = false
 alwaysopen = true
+collapsibleMenu = false
+[_build]
+render = "never"
 +++
 
 # (будущий заголовок в меню)
