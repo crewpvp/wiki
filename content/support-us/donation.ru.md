@@ -19,7 +19,7 @@ weight = 1
 {{% /expand %}}
 
 {{%expand title="monitoringminecraft.ru (дополнительная реклама сервера)"%}}
-Второй по востребованности: [**monitoringminecraft.ru**](https://monitoringminecraft.ru/promo-server-823545) необходим, если на первом всё замечательно или наоборот очень плохо.
+Второй по востребованности: [**monitoringminecraft.ru**](https://monitoringminecraft.ru/promo-server-823545)
 {{% /expand %}}
 
 ### Перевести любую сумму
