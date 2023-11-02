@@ -22,5 +22,5 @@ image = "./forest.jpg"
 {{% /expand %}}
 {{%expand title="**Присоединиться к нам**"%}}
 Discord: [**crewpvp.xyz/discord** <i class="fa-brands fa-discord fa-xs"></i>](https://discord.com/invite/uKreqjn)\
-Minecraft: {{% copy %}} **crewpvp.xyz** <i class="fa-solid fa-copy fa-xs"></i> {{% /copy %}}
+Minecraft: {{% copy style = "default-link" %}} **crewpvp.xyz** <i class="fa-solid fa-copy fa-xs"></i> {{% /copy %}}
 {{% /expand %}}
