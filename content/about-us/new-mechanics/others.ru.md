@@ -11,7 +11,7 @@ weight = 3
 
 {{%expand title="**Наш Ресурс-Пак**"%}}
 Он позволяет слушать новые пластинки и видеть стикеры в чате.\
-Скачать его можно **тут** (кликабельно)
+Скачать его можно [**здесь** <i class="fa-solid fa-circle-down"></i>](https://github.com/crewpvp/resource-pack/releases/latest/download/resourcepack.zip)
 {{% /expand %}}
 
 {{%expand title="**Новые пластинки**"%}}
