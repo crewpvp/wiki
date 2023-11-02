@@ -8,8 +8,8 @@ weight = 2
 <gray>Дробить, собирать, убивать</gray>
 
 ### Дробитель
-![pic1 - Готов к работе](../dispensers/miner.jpg?classes=inline)
-![pic2 - Активирован](../dispensers/miner-activated.jpg?classes=inline)
+![pic1 - Готов к работе](/images/dispensers/miner.png?classes=inline)
+![pic2 - Активирован](/images/dispensers/miner-activated.png?classes=inline)
 
 {{% notice style="info" title="Раздатчик-дробитель" %}}
 Для срабатывания требуется **кирка** в раздатчике.\
@@ -18,8 +18,8 @@ weight = 2
 {{% /notice %}}
 
 ### Фермер
-![pic1 - Готов к работе](../dispensers/farmer.jpg?classes=inline)
-![pic2 - Активирован](../dispensers/farmer-activated.jpg?classes=inline)
+![pic1 - Готов к работе](/images/dispensers/farmer.png?classes=inline)
+![pic2 - Активирован](/images/dispensers/farmer-activated.png?classes=inline)
 
 {{% notice style="info" title="Раздатчик-фермер" %}}
 Для срабатывания требуется **мотыга** в раздатчике.\
@@ -29,8 +29,8 @@ weight = 2
 {{% /notice %}}
 
 ### Лесоруб
-![pic1 - Готов к работе](../dispensers/woodcutter.jpg?classes=inline)
-![pic2 - Активирован](../dispensers/woodcutter-activated.jpg?classes=inline)
+![pic1 - Готов к работе](/images/dispensers/woodcutter.png?classes=inline)
+![pic2 - Активирован](/images/dispensers/woodcutter-activated.png?classes=inline)
 
 {{% notice style="info" title="Раздатчик-лесоруб" %}}
 Для срабатывания требуется **топор** в раздатчике.\
@@ -40,9 +40,9 @@ weight = 2
 {{% /notice %}}
 
 ### Мечник «Обычный»
-![pic1 - Готов к работе](../dispensers/sword.jpg?classes=inline)
-![pic2 - Активирован 1 раз](../dispensers/sword-1-activated.jpg?classes=inline)
-![pic3 - Активирован N раз](../dispensers/sword-n-activated.jpg?classes=inline)
+![pic1 - Готов к работе](/images/dispensers/sword.png?classes=inline)
+![pic2 - Активирован 1 раз](/images/dispensers/sword-1-activated.png?classes=inline)
+![pic3 - Активирован N раз](/images/dispensers/sword-n-activated.png?classes=inline)
 
 {{% notice style="info" title="Раздатчик-мечник в «Обычном» режиме" %}}
 Для срабатывания требуется **меч** в раздатчике.\
@@ -51,9 +51,9 @@ weight = 2
 {{% /notice %}}
 
 ### Мечник «Добыча опыта»
-![pic1 - Готов к работе](../dispensers/sword-exp.jpg?classes=inline)
-![pic2 - Активирован 1 раз](../dispensers/sword-exp-1-activated.jpg?classes=inline)
-![pic3 - Активирован N раз](../dispensers/sword-exp-n-activated.jpg?classes=inline)
+![pic1 - Готов к работе](/images/dispensers/sword-exp.png?classes=inline)
+![pic2 - Активирован 1 раз](/images/dispensers/sword-exp-1-activated.png?classes=inline)
+![pic3 - Активирован N раз](/images/dispensers/sword-exp-n-activated.png?classes=inline)
 
 {{% notice style="info" title="Раздатчик-мечник в режиме «Добыча опыта»" %}}
 Для срабатывания требуется **меч** и **пустая бутылочка** в раздатчике.\
@@ -64,8 +64,8 @@ weight = 2
 {{% /notice %}}
 
 ### Активатор
-![pic1 - Готов к работе](../dispensers/none.jpg?classes=inline)
-![pic2 - Активирован](../dispensers/none.jpg?classes=inline)
+![pic1 - Готов к работе](/images/none.jpg?classes=inline)
+![pic2 - Активирован](/images/none.jpg?classes=inline)
 
 {{% notice style="info" title="Раздатчик-активатор" %}}
 Для срабатывания требуется **редстоун** в раздатчике.\
@@ -77,8 +77,8 @@ weight = 2
 
 
 ### Шипомёт
-![pic1 - Готов к работе](../dispensers/none.jpg?classes=inline)
-![pic2 - Активирован](../dispensers/none.jpg?classes=inline)
+![pic1 - Готов к работе](/images/none.jpg?classes=inline)
+![pic2 - Активирован](/images/none.jpg?classes=inline)
 
 {{% notice style="info" title="Раздатчик-шипомёт" %}}
 Для срабатывания требуется **осколок** аметиста в раздатчике.\
