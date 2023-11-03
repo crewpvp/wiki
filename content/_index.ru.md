@@ -10,7 +10,7 @@ image = "../forest.jpg"
 <hundred-empty-line></hundred-empty-line>
 
 {{%expand title="**В чём суть Vanilla Plus на crewpvp.xyz?**"%}}
--- Ванильный Minecraft с добавлением [**новых механик** <i class="fa-solid fa-gear scale"></i>](../about-us/new-mechanics)\
+-- Ванильный Minecraft с добавлением [**новых механик** <i class="fa-solid fa-gear fa-xs scale"></i>](../about-us/new-mechanics)\
 -- Мы имеем довольно активное и дружелюбное комьюнити\
 -- У нас отсутствуют бесполезные плагины и донатные преимущества\
 -- Гриферство запрещено, все действия нарушителя будут отменены\
