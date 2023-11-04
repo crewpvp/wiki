@@ -27,7 +27,7 @@ weight = 2
 {{% /notice %}}
 
 ### Лесоруб
-{{% carousel "/images/dispensers/woodcutter.png|Готов к работе" "/images/dispensers/woodcutter-activated|Активирован" %}}
+{{% carousel "/images/dispensers/woodcutter.png|Готов к работе" "/images/dispensers/woodcutter-activated.png|Активирован" %}}
 
 {{% notice style="info" title="Раздатчик-лесоруб" %}}
 -- Позволяет **срубать дерево**, находящийся перед ним, **затем высаживать новое**.\
