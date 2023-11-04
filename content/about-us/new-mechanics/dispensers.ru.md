@@ -8,8 +8,7 @@ weight = 2
 <gray>Дробить, собирать, убивать</gray>
 
 ### Дробитель
-![pic1 - Готов к работе](/images/dispensers/miner.png?classes=inline)
-![pic2 - Активирован](/images/dispensers/miner-activated.png?classes=inline)
+{{% carousel "/images/dispensers/miner.png|Готов к работе" "/images/dispensers/miner-activated.png|Активирован" %}}
 
 {{% notice style="info" title="Раздатчик-дробитель" %}}
 -- Позволяет **разрушать блоки**, находящиеся перед ним.\
@@ -18,8 +17,7 @@ weight = 2
 {{% /notice %}}
 
 ### Фермер
-![pic1 - Готов к работе](/images/dispensers/farmer.png?classes=inline)
-![pic2 - Активирован](/images/dispensers/farmer-activated.png?classes=inline)
+{{% carousel "/images/dispensers/farmer.png|Готов к работе" "/images/dispensers/farmer-activated.png|Активирован" %}}
 
 {{% notice style="info" title="Раздатчик-фермер" %}}
 -- Позволяет **собирать урожай**, находящийся перед ним на пашне, **затем высаживать новый**.\
@@ -29,8 +27,7 @@ weight = 2
 {{% /notice %}}
 
 ### Лесоруб
-![pic1 - Готов к работе](/images/dispensers/woodcutter.png?classes=inline)
-![pic2 - Активирован](/images/dispensers/woodcutter-activated.png?classes=inline)
+{{% carousel "/images/dispensers/woodcutter.png|Готов к работе" "/images/dispensers/woodcutter-activated|Активирован" %}}
 
 {{% notice style="info" title="Раздатчик-лесоруб" %}}
 -- Позволяет **срубать дерево**, находящийся перед ним, **затем высаживать новое**.\
@@ -40,9 +37,7 @@ weight = 2
 {{% /notice %}}
 
 ### Мечник «Обычный»
-![pic1 - Готов к работе](/images/dispensers/sword.png?classes=inline)
-![pic2 - Активирован 1 раз](/images/dispensers/sword-1-activated.png?classes=inline)
-![pic3 - Активирован N раз](/images/dispensers/sword-n-activated.png?classes=inline)
+{{% carousel "/images/dispensers/sword.png|Готов к работе" "/images/dispensers/sword-1-activated.png|Активирован 1 раз" "/images/dispensers/sword-n-activated.png|Активирован N раз" %}}
 
 {{% notice style="info" title="Раздатчик-мечник в «Обычном» режиме" %}}
 -- Позволяет **наносить урон**, находящейся перед ним цели.\
@@ -51,9 +46,7 @@ weight = 2
 {{% /notice %}}
 
 ### Мечник «Добыча опыта»
-![pic1 - Готов к работе](/images/dispensers/sword-exp.png?classes=inline)
-![pic2 - Активирован 1 раз](/images/dispensers/sword-exp-1-activated.png?classes=inline)
-![pic3 - Активирован N раз](/images/dispensers/sword-exp-n-activated.png?classes=inline)
+{{% carousel "/images/dispensers/sword-exp.png|Готов к работе" "/images/dispensers/sword-exp-1-activated.png|Активирован 1 раз" "/images/dispensers/sword-exp-n-activated.png|Активирован N раз" %}}
 
 {{% notice style="info" title="Раздатчик-мечник в режиме «Добыча опыта»" %}}
 -- Позволяет **наносить урон**, находящейся перед ним цели, **собирая её опыт**.\
@@ -64,8 +57,7 @@ weight = 2
 {{% /notice %}}
 
 ### Активатор
-![pic1 - Готов к работе](/images/none.jpg?classes=inline)
-![pic2 - Активирован](/images/none.jpg?classes=inline)
+{{% carousel "/images/none.jpg|Готов к работе" "/images/none.jpg|Активирован" %}}
 
 {{% notice style="info" title="Раздатчик-активатор" %}}
 -- Позволяет **активировать мишень**, находящуюся на пути редстоун-луча.\
@@ -77,8 +69,7 @@ weight = 2
 
 
 ### Шипомёт
-![pic1 - Готов к работе](/images/none.jpg?classes=inline)
-![pic2 - Активирован](/images/none.jpg?classes=inline)
+{{% carousel "/images/none.jpg|Готов к работе" "/images/none.jpg|Активирован" %}}
 
 {{% notice style="info" title="Раздатчик-шипомёт" %}}
 -- Позволяет **наносить шипами урон**, равный 0.25 сердца за один удар.\
