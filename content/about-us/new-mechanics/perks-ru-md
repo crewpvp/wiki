@@ -1,0 +1,14 @@
++++
+title = "Навыки персонажа"
+archetype = "default"
+weight = 4
++++
+
+## Навыки персонажа
+<gray>Вдохновленные Payday 2</gray>
+
+| Option | Number | Description |
+|-------:|:------:|:------------|
+| data   | 1      | path to data files to supply the data that will be passed into templates. |
+| engine | 2 engine to be used for processing templates. Handlebars is the default. |
+| ext    | 3      | extension to be used for dest files. |
