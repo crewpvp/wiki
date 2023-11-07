@@ -10,11 +10,11 @@ weight = 6
 ### Вопросы про майнкрафт сервер
 
 {{%expand title="**Как начать играть?**"%}}
-Полная инструкция: [**оформление заявки <i class="fa-solid fa-pen fa-xs"></i>**](../about-us/start-playing)
+Полная инструкция: [**оформление заявки <i class="fa-solid fa-pen fa-xs scale"></i>**](../about-us/start-playing)
 {{% /expand %}}
 
 {{%expand title="**Как узнать информацию о сервере?**"%}}
-Информацию можно узнать прописав в игре команду **/help** и нажав на категорию.\
+Информацию можно узнать прописав в игре команду {{% copy %}} <green>**/help**<green> {{% /copy %}} и нажав на категорию.\
 (категории: особенности режима, чат, сообщество и другие)
 {{% /expand %}}
 
@@ -23,12 +23,12 @@ weight = 6
 Например в награду за занятие призовых мест в ивенте. 
 <fifty-empty-line></fifty-empty-line>
 **Что даёт премиум?** Например цветной ник и другие визуальные бонусы.\
-Подробнее: Премиум
+Подробнее: [**Премиум** <i class="fa-solid fa-user-tie fa-xs scale"></i>](../support-us/premium)
 {{% /expand %}}
 
 {{%expand title="**Как получить ресурс-пак сервера?**"%}}
 -- Автоматически: при входе на сервер разрешить установку РП от сервера\
--- Вручную: установить РП вручную скачав его [**здесь** <i class="fa-solid fa-circle-down fa-xs scale"></i>](../faq)
+-- Вручную: установить РП вручную скачав его [**здесь** <i class="fa-solid fa-circle-down fa-xs scale"></i>](https://github.com/crewpvp/resource-pack/releases/latest/download/resourcepack.zip)
 {{% /expand %}}
 
 {{%expand title="**Зачем нужна заявочная система?**"%}}
@@ -73,20 +73,20 @@ weight = 6
 
 {{%expand title="**Взаимодействия с чатом**"%}}
 -- Взаимодействия производимые мышью\
-Наведясь на <green>**ник игрока**</green> в чате вы увидите некоторую необходимую информацию.\
-Нажав на <green>**сообщение**</green> вы можете его скопировать.\
+Наведясь на <green>**ник игрока**</green> в чате вы увидите некоторую необходимую информацию\
+Нажав на <green>**сообщение**</green> вы можете его скопировать\
 <fifty-empty-line></fifty-empty-line>
 -- Текстовые взаимодействия, называемые тегами\
 Все теги отправляются в чат<br>
-{{% copy %}} **@<green>nickname</green>** {{% /copy %}} - упоминание человека.<br>
-{{% copy %}} **@<green>loc</green>** {{% /copy %}} - ваши координаты и мир в котором вы находитесь.<br>
-{{% copy %}} **@<green>item</green>** {{% /copy %}} - описание предмета, который вы держите в руке.<br>
-{{% copy %}} **@<green>target</green>** {{% /copy %}} - цель на которую вы смотрите.<br>
-{{% copy %}} **@<green>text</green>[<green>заголовок</green>]\[<green>текст</green>]**  {{% /copy %}} - текст под заголовком.<br>
+{{% copy %}} **@<green>nickname</green>** {{% /copy %}} - упоминание человека<br>
+{{% copy %}} **@<green>loc</green>** {{% /copy %}} - ваши координаты и мир в котором вы находитесь<br>
+{{% copy %}} **@<green>item</green>** {{% /copy %}} - описание предмета, который вы держите в руке<br>
+{{% copy %}} **@<green>target</green>** {{% /copy %}} - цель на которую вы смотрите<br>
+{{% copy %}} **@<green>text</green>[<green>заголовок</green>]\[<green>текст</green>]**  {{% /copy %}} - текст под заголовком<br>
 {{% copy %}} **:<green>sticker</green>:** {{% /copy %}} - стикер. Список всех стикеров: {{% copy %}} <green>**/stickers**</green> {{% /copy %}}
 
 <fifty-empty-line></fifty-empty-line>
-Чтобы видеть стикеры необходимо иметь наш ресурс-пак.
+Чтобы видеть стикеры необходимо иметь наш [**ресурс-пак** <i class="fa-solid fa-circle-down fa-xs scale"></i>](https://github.com/crewpvp/resource-pack/releases/latest/download/resourcepack.zip)
 {{% /expand %}}
 
 ### Вопросы про Vanilla Plus

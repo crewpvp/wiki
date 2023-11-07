@@ -1,7 +1,7 @@
 +++
 title = "Пожертвования"
 archetype = "default"
-weight = 1
+weight = 2
 +++
 
 ## Пожертвования
