@@ -15,7 +15,7 @@ alwaysopen = false
 
 ### Список статей о нововведениях
 
-{{% big-link url="../new-mechanics/systems" icon="fa-solid fa-link" %}}**Новые системы**{{% /big-link %}}
+{{% big-link url="../new-mechanics/systems" icon="fa-solid fa-link" %}}**Уникальные системы**{{% /big-link %}}
 
 {{% big-link url="../new-mechanics/dispensers" icon="fa-solid fa-link" %}}**Механики раздатчиков**{{% /big-link %}}
 
