@@ -182,7 +182,7 @@ defaultContentLanguage = "ru"
   disableLandingPageButton = true
   breadcrumbSeparator = "<i class='fa-fw fas fa-chevron-right' style='font-size:1rem;'></i>"
   #titleSeparator = "::"
-  themeVariant = [ "dark","light","neon" ]
+  themeVariant = [ "dark","light" ]
   themeVariantAuto = [ "dark","light" ]
   disableSeoHiddenPages = true
   # this is to index search for your native language in other languages, too (eg.
