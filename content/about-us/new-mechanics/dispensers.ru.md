@@ -8,7 +8,11 @@ weight = 2
 <gray>Дробить, собирать, убивать</gray>
 
 ### Дробитель
-{{% carousel "/images/dispensers/miner.png|Готов к работе" "/images/dispensers/miner-activated.png|Активирован" %}}
+{{% carousel %}}
+{{% carousel-image "/images/dispensers/miner.png" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/miner-activated.png" %}}Активирован{{% /carousel-image %}} 
+{{% /carousel %}}
+
 
 {{% notice style="info" title="Раздатчик-дробитель" %}}
 -- Позволяет **разрушать блоки**, находящиеся перед ним.\
@@ -17,7 +21,10 @@ weight = 2
 {{% /notice %}}
 
 ### Фермер
-{{% carousel "/images/dispensers/farmer.png|Готов к работе" "/images/dispensers/farmer-activated.png|Активирован" %}}
+{{% carousel %}}
+{{% carousel-image "/images/dispensers/farmer.png" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/farmer-activated.png" %}}Активирован{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-фермер" %}}
 -- Позволяет **собирать урожай**, находящийся перед ним на пашне, **затем высаживать новый**.\
@@ -27,7 +34,10 @@ weight = 2
 {{% /notice %}}
 
 ### Лесоруб
-{{% carousel "/images/dispensers/woodcutter.png|Готов к работе" "/images/dispensers/woodcutter-activated.png|Активирован" %}}
+{{% carousel %}}
+{{% carousel-image "/images/dispensers/woodcutter.png" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/woodcutter-activated.png" %}}Активирован{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-лесоруб" %}}
 -- Позволяет **срубать дерево**, находящийся перед ним, **затем высаживать новое**.\
@@ -37,7 +47,11 @@ weight = 2
 {{% /notice %}}
 
 ### Мечник «Обычный»
-{{% carousel "/images/dispensers/sword.png|Готов к работе" "/images/dispensers/sword-1-activated.png|Активирован 1 раз" "/images/dispensers/sword-n-activated.png|Активирован N раз" %}}
+{{% carousel %}}
+{{% carousel-image "/images/dispensers/sword.png" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/sword-1-activated.png" %}}Активирован 1 раз{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/sword-n-activated.png" %}}Активирован N раз{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-мечник в «Обычном» режиме" %}}
 -- Позволяет **наносить урон**, находящейся перед ним цели.\
@@ -46,7 +60,11 @@ weight = 2
 {{% /notice %}}
 
 ### Мечник «Добыча опыта»
-{{% carousel "/images/dispensers/sword-exp.png|Готов к работе" "/images/dispensers/sword-exp-1-activated.png|Активирован 1 раз" "/images/dispensers/sword-exp-n-activated.png|Активирован N раз" %}}
+{{% carousel %}}
+{{% carousel-image "/images/dispensers/sword-exp.png" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/sword-exp-1-activated.png" %}}Активирован 1 раз{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/sword-exp-n-activated.png" %}}Активирован N раз{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-мечник в режиме «Добыча опыта»" %}}
 -- Позволяет **наносить урон**, находящейся перед ним цели, **собирая её опыт**.\
@@ -57,7 +75,10 @@ weight = 2
 {{% /notice %}}
 
 ### Активатор
-{{% carousel "/images/none.jpg|Готов к работе" "/images/none.jpg|Активирован" %}}
+{{% carousel %}}
+{{% carousel-image "/images/none.jpg" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/none.jpg" %}}Активирован{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-активатор" %}}
 -- Позволяет **активировать мишень**, находящуюся на пути редстоун-луча.\
@@ -69,7 +90,10 @@ weight = 2
 
 
 ### Шипомёт
-{{% carousel "/images/none.jpg|Готов к работе" "/images/none.jpg|Активирован" %}}
+{{% carousel %}}
+{{% carousel-image "/images/none.jpg" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/none.jpg" %}}Активирован{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-шипомёт" %}}
 -- Позволяет **наносить шипами урон**, равный 0.25 сердца за один удар.\
