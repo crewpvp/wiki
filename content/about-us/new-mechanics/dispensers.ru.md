@@ -1,6 +1,8 @@
 +++
 title = "Механики раздатчиков"
 archetype = "default"
+url = "new-mechanics/dispensers"
+collapsibleMenu = true 
 weight = 2
 +++
 

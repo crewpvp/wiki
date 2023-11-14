@@ -2,6 +2,7 @@
 title = "Оформление заявки"
 archetype = "default"
 weight = 3
+url = "start-playing"
 +++
 
 ## Оформление заявки

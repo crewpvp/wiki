@@ -1,6 +1,7 @@
 +++
 title = "Уникальные системы"
 archetype = "default"
+url = "new-mechanics/systems"
 weight = 1
 +++
 

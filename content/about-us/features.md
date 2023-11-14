@@ -2,6 +2,7 @@
 title = "Особенности"
 archetype = "default"
 weight = 4
+url = "features"
 +++
 
 ## Особенности

@@ -2,6 +2,7 @@
 title = "Основные правила"
 archetype = "default"
 weight = 1
+url = "mind-rules"
 +++
 
 ## Основные правила

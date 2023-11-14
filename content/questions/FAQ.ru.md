@@ -2,6 +2,7 @@
 title = "FAQ"
 archetype = "default"
 weight = 6
+url = "FAQ"
 +++
 
 ## FAQ

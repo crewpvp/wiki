@@ -1,6 +1,7 @@
 +++
 title = "Прочие нововведения"
 archetype = "default"
+url = "new-mechanics/others"
 weight = 3
 +++
 

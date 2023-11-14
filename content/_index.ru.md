@@ -2,6 +2,7 @@
 title = "Welcome"
 archetype = "default"
 image = "../forest.jpg"
+url = "welcome"
 +++
 
 ## Welcome

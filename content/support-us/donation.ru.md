@@ -2,6 +2,7 @@
 title = "Пожертвования"
 archetype = "default"
 weight = 2
+url = "donation"
 +++
 
 ## Пожертвования

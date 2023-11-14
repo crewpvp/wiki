@@ -2,6 +2,7 @@
 title = "Премиум"
 archetype = "default"
 weight = 1
+url = "premium"
 +++
 
 ## Премиум

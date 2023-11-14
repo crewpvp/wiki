@@ -3,6 +3,7 @@ title = "Нововведения"
 archetype = "default"
 weight = 5
 alwaysopen = false
+url = "new-mechanics/"
 +++
 
 ## Нововведения
