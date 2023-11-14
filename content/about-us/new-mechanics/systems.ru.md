@@ -9,8 +9,10 @@ weight = 1
 <gray>Передавать, разрушать, телепортировать</gray>
 
 ### Система Транспортировки
-![pic1 - Система готова к работе](/images/system/transport.png)
-![pic2 - Система активирована](/images/system/transport-activated.png)
+{{% carousel %}}
+{{% carousel-image "/images/system/transport.png" %}}Система готова к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/system/transport-activated.png" %}}Система активирована{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-транспортер" %}}
 -- Позволяет моментально **передавать предметы** из раздатчика в хранилище.\
@@ -55,8 +57,11 @@ weight = 1
 {{% /notice %}}
 
 ### Система «Авто-шахтёр»
-![pic1 - Постройка и включение](/images/system/autominer-build.gif)
-![pic2 - Добавление системы транспортировки](/images/system/autominer-plus-transport.gif)
+
+{{% carousel %}}
+{{% carousel-video "/images/system/autominer-build.mp4" %}}Постройка и включение{{% /carousel-image %}} 
+{{% carousel-video "/images/system/autominer-plus-transport.mp4" %}}Добавление системы транспортировки{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Рамка системы «Авто-шахтёр»" %}}
 -- Используется **для направления** раздатчика-дробителя **по заданной области**.\
@@ -80,8 +85,11 @@ weight = 1
 {{% /notice %}}
 
 ### Система «Телепортер»
-![pic1 - Система готова к работе](/images/system/teleport.png)
-![pic2 - Система активирована](/images/system/teleport-activated.png)
+
+{{% carousel %}}
+{{% carousel-image "/images/system/teleport.png" %}}Система готова к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/system/teleport-activated.png" %}}Система активирована{{% /carousel-image %}} 
+{{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик отправляющий телепорт" %}}
 -- Позволяет телепортировать сущностей, стоящих перед ним, к принимающему раздатчику.\
