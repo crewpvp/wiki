@@ -169,7 +169,7 @@ defaultContentLanguage = "ru"
 # consult this documentation for explaination
 [params]
   disableExplicitIndexURLs = true
-  editURL = "https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/"
+  editURL = "https://github.com/crewpvp/wiki/edit/main/content/"
   description = "Wiki of crewpvp.xyz minecraft server"
   author = "Lotzy, w0w0"
   showVisitedLinks = true
@@ -180,7 +180,6 @@ defaultContentLanguage = "ru"
   disableEditButton = true
   disablePrintButton = true
   disableNextPrev = false
-  disableLandingPageButton = true
   breadcrumbSeparator = "<i class='fa-fw fas fa-chevron-right' style='font-size:1rem;'></i>"
   #titleSeparator = "::"
   themeVariant = [ "dark","light" ]
