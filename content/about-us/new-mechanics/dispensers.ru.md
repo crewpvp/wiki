@@ -18,7 +18,7 @@ weight = 2
 
 {{% notice style="info" title="Раздатчик-дробитель" %}}
 -- Позволяет **разрушать блоки**, находящиеся перед ним.\
--- Для срабатывания требуется **кирка** в раздатчике. <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации {{% /lighting %}}
+-- Для срабатывания требуется **кирка** в раздатчике. <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
 
 ### Фермер
@@ -30,7 +30,7 @@ weight = 2
 {{% notice style="info" title="Раздатчик-фермер" %}}
 -- Позволяет **собирать урожай**, находящийся перед ним на пашне, **затем высаживать новый**.\
 -- Для срабатывания требуется **мотыга** в раздатчике.\
--- Для сбора ягод или адского нароста требуются ножницы.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации {{% /lighting %}}
+-- Для сбора ягод или адского нароста требуются ножницы.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
 
 ### Лесоруб
@@ -42,7 +42,7 @@ weight = 2
 {{% notice style="info" title="Раздатчик-лесоруб" %}}
 -- Позволяет **срубать дерево**, находящийся перед ним, **затем высаживать новое**.\
 -- Для срабатывания требуется **топор** в раздатчике.\
--- Прочность топора тратится в соответствии к количеству срубленных блоков.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации {{% /lighting %}}
+-- Прочность топора тратится в соответствии к количеству срубленных блоков.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
 
 ### Мечник «Обычный»
@@ -54,7 +54,7 @@ weight = 2
 
 {{% notice style="info" title="Раздатчик-мечник в «Обычном» режиме" %}}
 -- Позволяет **наносить урон**, находящейся перед ним цели.\
--- Для срабатывания требуется **меч** в раздатчике.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации {{% /lighting %}}
+-- Для срабатывания требуется **меч** в раздатчике.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
 
 ### Мечник «Добыча опыта»
@@ -68,7 +68,7 @@ weight = 2
 -- Позволяет **наносить урон**, находящейся перед ним цели, **собирая её опыт**.\
 -- Для срабатывания требуется **меч** и **пустая бутылочка** в раздатчике.\
 -- Пустые бутылочки тратятся при срабатывании.\
--- Пузырьки опыта выпадают перед раздатчиком.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации {{% /lighting %}}
+-- Пузырьки опыта выпадают перед раздатчиком.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
 
 ### Активатор
@@ -81,7 +81,7 @@ weight = 2
 -- Позволяет **активировать мишень**, находящуюся на пути редстоун-луча.\
 -- Для срабатывания требуется **редстоун** в раздатчике.\
 -- Выпускает редстоун-луч из раздающего отверстия, луч проходит сквозь блоки.\
--- Длина редстоун-луча зависит от количества редстоуна внутри раздатчика.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации {{% /lighting %}}
+-- Длина редстоун-луча зависит от количества редстоуна внутри раздатчика.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
 
 
@@ -95,5 +95,5 @@ weight = 2
 -- Позволяет **наносить шипами урон**, равный 0.25 сердца за один удар.\
 -- Для срабатывания требуется **осколок аметиста** в раздатчике.\
 -- Выпускает шипы из раздающего отверстия, проходя сквозь блоки. \
--- Дальность действия зависит от количества осколков аметиста внутри раздатчика.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации {{% /lighting %}}
+-- Дальность действия зависит от количества осколков аметиста внутри раздатчика.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
