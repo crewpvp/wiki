@@ -62,19 +62,16 @@ weight = 3
 
 {{%expand title="**Блок проектора**"%}}
 -- Блок проектора позволяет создавать текстовые голограммы
-<fifty-empty-line></fifty-empty-line>
 ![Редактирование: нажмите ПКМ по проектору и напишите текст в чат](/images/others/projector.webp)
 {{% /expand %}}
 
 {{%expand title="**Блок света**"%}}
 -- Блок света позволяет скрыто освещать территорию
-<fifty-empty-line></fifty-empty-line>
 ![Крафт поддерживает любые блоки освещения, кроме факела](/images/others/light.webp)
 {{% /expand %}}
 
 {{%expand title="**Невидимая рамка**"%}}
 -- Невидимая рамка позволяет "положить" предмет на блок, будто без неё
-<fifty-empty-line></fifty-empty-line>
 
 {{% carousel %}}
 {{% carousel-image "/images/others/invisible_frame.webp" %}}{{% /carousel-image %}} 
@@ -84,12 +81,10 @@ weight = 3
 
 {{%expand title="**Мешок**"%}}
 -- Мешок позволяет складывать разные виды предметов в единый стак
-<fifty-empty-line></fifty-empty-line>
 ![Крафт поддерживает любой вид кожи](/images/others/bag.webp)
 {{% /expand %}}
 
 {{%expand title="**Новые загадочные рагу**"%}}
 -- Рагу на удачу и многое другое
-<fifty-empty-line></fifty-empty-line>
 <gray>**Крафты добавятся позже**</gray>
 {{% /expand %}}
