@@ -15,8 +15,8 @@ weight = 2
 {{% carousel-image "/images/dispensers/miner-activated.png" %}}Активирован{{% /carousel-image %}} 
 {{% /carousel %}}
 
-
 {{% notice style="info" title="Раздатчик-дробитель" %}}
+![](/images/dispensers/dispenser-miner.png)
 -- Позволяет **разрушать блоки**, находящиеся перед ним.\
 -- Для срабатывания требуется **кирка** в раздатчике. <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
@@ -28,6 +28,7 @@ weight = 2
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-фермер" %}}
+![](/images/dispensers/dispenser-farmer.png)
 -- Позволяет **собирать урожай**, находящийся перед ним на пашне, **затем высаживать новый**.\
 -- Для срабатывания требуется **мотыга** в раздатчике.\
 -- Для сбора ягод или адского нароста требуются ножницы.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
@@ -39,7 +40,9 @@ weight = 2
 {{% carousel-image "/images/dispensers/woodcutter-activated.png" %}}Активирован{{% /carousel-image %}} 
 {{% /carousel %}}
 
+
 {{% notice style="info" title="Раздатчик-лесоруб" %}}
+![](/images/dispensers/dispenser-woodcutter.png)
 -- Позволяет **срубать дерево**, находящийся перед ним, **затем высаживать новое**.\
 -- Для срабатывания требуется **топор** в раздатчике.\
 -- Прочность топора тратится в соответствии к количеству срубленных блоков.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
@@ -53,6 +56,7 @@ weight = 2
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-мечник в «Обычном» режиме" %}}
+![](/images/dispensers/dispenser-sword.png)
 -- Позволяет **наносить урон**, находящейся перед ним цели.\
 -- Для срабатывания требуется **меч** в раздатчике.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
@@ -65,6 +69,7 @@ weight = 2
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-мечник в режиме «Добыча опыта»" %}}
+![](/images/dispensers/dispenser-sword-exp.png)
 -- Позволяет **наносить урон**, находящейся перед ним цели, **собирая её опыт**.\
 -- Для срабатывания требуется **меч** и **пустая бутылочка** в раздатчике.\
 -- Пустые бутылочки тратятся при срабатывании.\
@@ -72,28 +77,11 @@ weight = 2
 {{% /notice %}}
 
 ### Активатор
-{{% carousel %}}
-{{% carousel-image "/images/none.jpg" %}}Готов к работе{{% /carousel-image %}} 
-{{% carousel-image "/images/none.jpg" %}}Активирован{{% /carousel-image %}} 
-{{% /carousel %}}
 
+![](/images/none.png)
 {{% notice style="info" title="Раздатчик-активатор" %}}
 -- Позволяет **активировать мишень**, находящуюся на пути редстоун-луча.\
 -- Для срабатывания требуется **редстоун** в раздатчике.\
 -- Выпускает редстоун-луч из раздающего отверстия, луч проходит сквозь блоки.\
 -- Длина редстоун-луча зависит от количества редстоуна внутри раздатчика.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
-{{% /notice %}}
-
-
-### Шипомёт
-{{% carousel %}}
-{{% carousel-image "/images/none.jpg" %}}Готов к работе{{% /carousel-image %}} 
-{{% carousel-image "/images/none.jpg" %}}Активирован{{% /carousel-image %}} 
-{{% /carousel %}}
-
-{{% notice style="info" title="Раздатчик-шипомёт" %}}
--- Позволяет **наносить шипами урон**, равный 0.25 сердца за один удар.\
--- Для срабатывания требуется **осколок аметиста** в раздатчике.\
--- Выпускает шипы из раздающего отверстия, проходя сквозь блоки. \
--- Дальность действия зависит от количества осколков аметиста внутри раздатчика.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /notice %}}
