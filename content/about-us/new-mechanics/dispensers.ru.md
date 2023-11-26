@@ -16,9 +16,15 @@ weight = 2
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-дробитель" %}}
-![](/images/dispensers/dispenser-miner.png)
+{{% flex %}}
+{{% flex-item basis="85%" shrink="1" grow="1" %}}
 -- Позволяет **разрушать блоки**, находящиеся перед ним.\
 -- Для срабатывания требуется **кирка** в раздатчике. <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+{{% /flex-item %}}
+{{% flex-item basis="15%" %}}
+![](/images/dispensers/dispenser-miner.png)
+{{% /flex-item %}}
+{{% /flex %}}
 {{% /notice %}}
 
 ### Фермер
@@ -28,10 +34,17 @@ weight = 2
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-фермер" %}}
-![](/images/dispensers/dispenser-farmer.png)
+{{% flex %}}
+{{% flex-item basis="85%" shrink="1" grow="1" %}}
 -- Позволяет **собирать урожай**, находящийся перед ним на пашне, **затем высаживать новый**.\
 -- Для срабатывания требуется **мотыга** в раздатчике.\
 -- Для сбора ягод или адского нароста требуются ножницы.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+{{% /flex-item %}}
+{{% flex-item basis="15%" %}}
+![](/images/dispensers/dispenser-farmer.png)
+{{% /flex-item %}}
+{{% /flex %}}
+
 {{% /notice %}}
 
 ### Лесоруб
@@ -42,10 +55,16 @@ weight = 2
 
 
 {{% notice style="info" title="Раздатчик-лесоруб" %}}
-![](/images/dispensers/dispenser-woodcutter.png)
+{{% flex %}}
+{{% flex-item basis="85%" shrink="1" grow="1" %}}
 -- Позволяет **срубать дерево**, находящийся перед ним, **затем высаживать новое**.\
 -- Для срабатывания требуется **топор** в раздатчике.\
 -- Прочность топора тратится в соответствии к количеству срубленных блоков.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+{{% /flex-item %}}
+{{% flex-item basis="15%" %}}
+![](/images/dispensers/dispenser-woodcutter.png)
+{{% /flex-item %}}
+{{% /flex %}}
 {{% /notice %}}
 
 ### Мечник «Обычный»
@@ -56,9 +75,15 @@ weight = 2
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-мечник в «Обычном» режиме" %}}
-![](/images/dispensers/dispenser-sword.png)
+{{% flex %}}
+{{% flex-item basis="85%" shrink="1" grow="1" %}}
 -- Позволяет **наносить урон**, находящейся перед ним цели.\
 -- Для срабатывания требуется **меч** в раздатчике.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+{{% /flex-item %}}
+{{% flex-item basis="15%" %}}
+![](/images/dispensers/dispenser-sword.png)
+{{% /flex-item %}}
+{{% /flex %}}
 {{% /notice %}}
 
 ### Мечник «Добыча опыта»
@@ -69,19 +94,57 @@ weight = 2
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-мечник в режиме «Добыча опыта»" %}}
-![](/images/dispensers/dispenser-sword-exp.png)
+{{% flex %}}
+{{% flex-item basis="85%" shrink="1" grow="1" %}}
 -- Позволяет **наносить урон**, находящейся перед ним цели, **собирая её опыт**.\
 -- Для срабатывания требуется **меч** и **пустая бутылочка** в раздатчике.\
 -- Пустые бутылочки тратятся при срабатывании.\
 -- Пузырьки опыта выпадают перед раздатчиком.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+{{% /flex-item %}}
+{{% flex-item basis="15%" %}}
+![](/images/dispensers/dispenser-sword-exp.png)
+{{% /flex-item %}}
+{{% /flex %}}
 {{% /notice %}}
 
 ### Активатор
 
-![](/images/none.png)
+{{% carousel %}}
+{{% carousel-image "/images/dispensers/activator.png" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/activator-activated.png" %}}Активирован{{% /carousel-image %}} 
+{{% /carousel %}}
+
 {{% notice style="info" title="Раздатчик-активатор" %}}
+{{% flex %}}
+{{% flex-item basis="85%" shrink="1" grow="1" %}}
 -- Позволяет **активировать мишень**, находящуюся на пути редстоун-луча.\
 -- Для срабатывания требуется **редстоун** в раздатчике.\
 -- Выпускает редстоун-луч из раздающего отверстия, луч проходит сквозь блоки.\
 -- Длина редстоун-луча зависит от количества редстоуна внутри раздатчика.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+{{% /flex-item %}}
+{{% flex-item basis="15%" %}}
+![](/images/dispensers/dispenser-activator.png)
+{{% /flex-item %}}
+{{% /flex %}}
+{{% /notice %}}
+
+### Диктор
+
+{{% carousel %}}
+{{% carousel-image "/images/dispensers/speaker.png" %}}Готов к работе{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/speaker-activated.png" %}}Активирован{{% /carousel-image %}} 
+{{% /carousel %}}
+
+
+{{% notice style="info" title="Раздатчик-диктор" %}}
+{{% flex %}}
+{{% flex-item basis="85%" shrink="1" grow="1" %}}
+-- Позволяет **отправлять сообщения** в локальный чат\
+-- Для срабатывания требуется **завершённая книга** в раздатчике\
+-- Отправляет **название книги** как ник, содержимое **первой страницы** как сообщение<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+{{% /flex-item %}}
+{{% flex-item basis="15%" %}}
+![](/images/dispensers/dispenser-speaker.png)
+{{% /flex-item %}}
+{{% /flex %}}
 {{% /notice %}}
