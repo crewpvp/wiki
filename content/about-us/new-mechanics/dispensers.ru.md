@@ -18,8 +18,8 @@ weight = 2
 {{% notice style="info" title="Раздатчик-дробитель" %}}
 {{% flex %}}
 {{% flex-item basis="85%" shrink="1" grow="1" %}}
--- Позволяет **разрушать блоки**, находящиеся перед ним.\
--- Для срабатывания требуется **кирка** в раздатчике. <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+-- Позволяет **разрушать блоки**, находящиеся перед ним\
+-- Для срабатывания требуется **кирка** в раздатчике <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
 ![](/images/dispensers/dispenser-miner.png)
@@ -36,9 +36,9 @@ weight = 2
 {{% notice style="info" title="Раздатчик-фермер" %}}
 {{% flex %}}
 {{% flex-item basis="85%" shrink="1" grow="1" %}}
--- Позволяет **собирать урожай**, находящийся перед ним на пашне, **затем высаживать новый**.\
--- Для срабатывания требуется **мотыга** в раздатчике.\
--- Для сбора ягод или адского нароста требуются ножницы.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+-- Позволяет **собирать урожай**, находящийся перед ним на пашне, **затем высаживать новый**\
+-- Для срабатывания требуется **мотыга** в раздатчике\
+-- Для сбора ягод или адского нароста требуются ножницы<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
 ![](/images/dispensers/dispenser-farmer.png)
@@ -57,9 +57,9 @@ weight = 2
 {{% notice style="info" title="Раздатчик-лесоруб" %}}
 {{% flex %}}
 {{% flex-item basis="85%" shrink="1" grow="1" %}}
--- Позволяет **срубать дерево**, находящийся перед ним, **затем высаживать новое**.\
--- Для срабатывания требуется **топор** в раздатчике.\
--- Прочность топора тратится в соответствии к количеству срубленных блоков.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+-- Позволяет **срубать дерево**, находящийся перед ним, **затем высаживать новое**\
+-- Для срабатывания требуется **топор** в раздатчике\
+-- Прочность топора тратится в соответствии к количеству срубленных блоков<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
 ![](/images/dispensers/dispenser-woodcutter.png)
@@ -96,10 +96,10 @@ weight = 2
 {{% notice style="info" title="Раздатчик-мечник в режиме «Добыча опыта»" %}}
 {{% flex %}}
 {{% flex-item basis="85%" shrink="1" grow="1" %}}
--- Позволяет **наносить урон**, находящейся перед ним цели, **собирая её опыт**.\
--- Для срабатывания требуется **меч** и **пустая бутылочка** в раздатчике.\
--- Пустые бутылочки тратятся при срабатывании.\
--- Пузырьки опыта выпадают перед раздатчиком.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+-- Позволяет **наносить урон**, находящейся перед ним цели, **собирая её опыт**\
+-- Для срабатывания требуется **меч** и **пузырёк** в раздатчике\
+-- Пузырьки тратятся при срабатывании\
+-- Пузырьки опыта выпадают перед раздатчиком <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
 ![](/images/dispensers/dispenser-sword-exp.png)
@@ -117,10 +117,10 @@ weight = 2
 {{% notice style="info" title="Раздатчик-активатор" %}}
 {{% flex %}}
 {{% flex-item basis="85%" shrink="1" grow="1" %}}
--- Позволяет **активировать мишень**, находящуюся на пути редстоун-луча.\
--- Для срабатывания требуется **редстоун** в раздатчике.\
--- Выпускает редстоун-луч из раздающего отверстия, луч проходит сквозь блоки.\
--- Длина редстоун-луча зависит от количества редстоуна внутри раздатчика.<br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
+-- Позволяет **активировать мишень**, находящуюся на пути редстоун-луча\
+-- Для срабатывания требуется **редстоун** в раздатчике\
+-- Выпускает редстоун-луч, проходящий сквозь блоки\
+-- Длина редстоун-луча зависит от количества редстоуна внутри раздатчика <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
 ![](/images/dispensers/dispenser-activator.png)
