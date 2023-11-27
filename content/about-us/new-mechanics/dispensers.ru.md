@@ -70,8 +70,8 @@ weight = 2
 ### Мечник «Обычный»
 {{% carousel %}}
 {{% carousel-image "/images/dispensers/sword.png" %}}Готов к работе{{% /carousel-image %}} 
-{{% carousel-image "/images/dispensers/sword-1-activated.png" %}}Активирован 1 раз{{% /carousel-image %}} 
-{{% carousel-image "/images/dispensers/sword-n-activated.png" %}}Активирован N раз{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/sword-1-activated.png" %}}Активирован первый раз{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/sword-n-activated.png" %}}Активирован несколько раз{{% /carousel-image %}} 
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-мечник в «Обычном» режиме" %}}
@@ -89,8 +89,8 @@ weight = 2
 ### Мечник «Добыча опыта»
 {{% carousel %}}
 {{% carousel-image "/images/dispensers/sword-exp.png" %}}Готов к работе{{% /carousel-image %}} 
-{{% carousel-image "/images/dispensers/sword-exp-1-activated.png" %}}Активирован 1 раз{{% /carousel-image %}} 
-{{% carousel-image "/images/dispensers/sword-exp-n-activated.png" %}}Активирован N раз{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/sword-exp-1-activated.png" %}}Активирован первый раз{{% /carousel-image %}} 
+{{% carousel-image "/images/dispensers/sword-exp-n-activated.png" %}}Активирован несколько раз{{% /carousel-image %}} 
 {{% /carousel %}}
 
 {{% notice style="info" title="Раздатчик-мечник в режиме «Добыча опыта»" %}}
