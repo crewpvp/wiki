@@ -9,8 +9,8 @@ weight = 1
 <gray>Передавать, разрушать, телепортировать</gray>
 
 ### Система Транспортировки
-{{% carousel %}}
-{{% carousel-image "/images/system/transport.png" %}}Система готова к работе{{% /carousel-image %}} 
+{{% carousel round-borders=false %}}
+{{% carousel-image  "/images/system/transport.png" %}}Система готова к работе{{% /carousel-image %}} 
 {{% carousel-image "/images/system/transport-activated.png" %}}Система активирована{{% /carousel-image %}} 
 {{% /carousel %}}
 
@@ -25,7 +25,7 @@ weight = 1
 -- Для поворота **трубы** используется неокисленный **блок меди** <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
-![](/images/system/dispenser-transporter.png)
+![](/images/system/dispenser-transporter.png?round-borders=false)
 {{% /flex-item %}}
 {{% /flex %}}
 {{% /notice %}}
@@ -38,7 +38,7 @@ weight = 1
 -- Раздатчик **устанавливается** на пути труб <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик не работает вне системы транспортировки</white> {{% /lighting %}} 
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
-![](/images/system/dispenser-sorter.png) 
+![](/images/system/dispenser-sorter.png?round-borders=false) 
 {{% /flex-item %}}
 {{% /flex %}}
 {{% /notice %}}
@@ -54,7 +54,7 @@ weight = 1
 -- Труба устанавливается сзади раздающего отверстия  <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активаци</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
-![](/images/system/dispenser-collector.png) 
+![](/images/system/dispenser-collector.png?round-borders=false) 
 {{% /flex-item %}}
 {{% /flex %}}
 {{% /notice %}}
@@ -69,7 +69,7 @@ weight = 1
 -- Дроппер **устанавливается** на пути труб <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Дроппер не работает вне системы транспортировки</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
-![](/images/system/dropper-crafter.png)
+![](/images/system/dropper-crafter.png?round-borders=false)
 {{% /flex-item %}}
 {{% /flex %}}
 {{% /notice %}}
@@ -83,14 +83,14 @@ weight = 1
 -- Дроппер **устанавливается** на пути труб <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Дроппер не работает вне системы транспортировки</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
-![](/images/system/dropper-dropper.png)
+![](/images/system/dropper-dropper.png?round-borders=false)
 {{% /flex-item %}}
 {{% /flex %}}
 {{% /notice %}}
 
 ### Система «Авто-шахтёр»
 
-{{% carousel %}}
+{{% carousel round-borders=false %}}
 {{% carousel-video "/images/system/autominer-build.mp4" %}}Постройка и включение{{% /carousel-image %}} 
 {{% carousel-video "/images/system/autominer-plus-transport.mp4" %}}Добавление системы транспортировки{{% /carousel-image %}} 
 {{% /carousel %}}
@@ -103,7 +103,7 @@ weight = 1
 -- **Сборка рамки**: установить по углам **неокисленные медные блоки**, соединенив их **громоотводами** <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Рамка не работает вне прогруженных чанков</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="23%" %}}
-![](/images/system/miner-frame.png)
+![](/images/system/miner-frame.png?round-borders=false)
 {{% /flex-item %}}
 {{% /flex %}}
 
@@ -119,7 +119,7 @@ weight = 1
 -- **Остановится**, если в области движения находятся блоки, исключая сыпучие <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="23%" %}}
-![](/images/system/miner.png)
+![](/images/system/miner.png?round-borders=false)
 {{% /flex-item %}}
 {{% /flex %}}
 {{% /notice %}}
@@ -133,14 +133,14 @@ weight = 1
 -- Далее требуется **подключить трубу** к хранилищу <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Система Транспортировки поддерживает любые модификации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="23%" %}}
-![](/images/system/miner-plus-transport.png)
+![](/images/system/miner-plus-transport.png?round-borders=false)
 {{% /flex-item %}}
 {{% /flex %}}
 {{% /notice %}}
 
 ### Система «Телепортер»
 
-{{% carousel %}}
+{{% carousel round-borders=false %}}
 {{% carousel-image "/images/system/teleport.png" %}}Система готова к работе{{% /carousel-image %}} 
 {{% carousel-image "/images/system/teleport-activated.png" %}}Система активирована{{% /carousel-image %}} 
 {{% /carousel %}}
@@ -156,7 +156,7 @@ weight = 1
 -- Для **поворота направления** энд-трубы используется **блок пурпура**. <br> {{% lighting color="var(--INTERNAL-BOX-INFO-color)" %}} <white><i class="fa-solid fa-circle-exclamation fa-xs"></i> Раздатчик требует активации</white> {{% /lighting %}}
 {{% /flex-item %}}
 {{% flex-item basis="15%" %}}
-![](/images/system/dispenser-teleporter.png)
+![](/images/system/dispenser-teleporter.png?round-borders=false)
 {{% /flex-item %}}
 {{% /flex %}}
 {{% /notice %}}
