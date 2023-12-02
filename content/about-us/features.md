@@ -11,7 +11,7 @@ url = "features"
 <hundred-empty-line></hundred-empty-line>
 
 {{%expand title="**Наши нововведения**"%}}
--- Уникальные системы, механики раздатчиков, прочие нововведения\
+-- Уникальные системы, механики раздатчиков и прочие нововведения\
 -- Обо всём этом можно прочитать [**здесь** <i class="fa-solid fa-gear fa-xs scale"></i>](../about-us/new-mechanics)
 {{% /expand %}}
 
